@@ -25,7 +25,7 @@ If this step is successful, you will not get your input prompt back. To confirm 
 
 In either step, you should see the following response from the server: "Server is up and running! Nice work!"
 
-Note that if you are running a Windows computer, you will need to replace localhost with your computer's ip address being used for Docker. 
+*Note that if you are running a Windows computer, you will need to replace localhost with your computer's ip address being used for Docker.*
 
 
 Now that the server is up and running, we can send it requests to make predictions off of the mtcars dataset. 
