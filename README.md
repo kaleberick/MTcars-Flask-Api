@@ -21,7 +21,7 @@ If this step is successful, you will not get your input prompt back. To confirm 
 
 2. Open up a new terminal or command prompt and navigate back to the docker folder. Run the following curl command to get a response from the server.
 
-`curl http://localhost:5000/
+`curl http://localhost:5000/`
 
 In either step, you should see the following response from the server: "Server is up and running! Nice work!"
 
@@ -33,12 +33,12 @@ Now that the server is up and running, we can send it requests to make predictio
 
 The model looks at the following variables to predict a car's miles per gallon:
 
-# cyl
-# disp
-# hp
-# drat
-# wt
-# qsec
+- cyl
+- disp
+- hp
+- drat
+- wt
+- qsec
 
 
 Here is an example command:
